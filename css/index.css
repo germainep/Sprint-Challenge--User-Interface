@@ -298,9 +298,37 @@ footer nav a {
 
 /* ! About Page Styles */
 section {
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .headline {
     border-bottom: 1px dashed #000;
+}
+
+.center-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 45%;
+    border-bottom: 1px dashed #000;
+    margin: 20px 0;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card button {
+    padding: 10px 10px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.card-text {
+    margin: 10px 0;
 }
